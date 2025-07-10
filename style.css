@@ -1,5 +1,6 @@
-.raleway{
+body{
  font-family: "Raleway", sans-serif;
+ background-color: #F5F8FF;
 }
 
 header{
@@ -36,9 +37,66 @@ nav{
 }
 .banner-tittle{
     font-size: 62px;
+    font-weight: bold;
     width: 900px;
     margin: 0 auto;
 }
 .banner-btn{
    margin-top: 35px;
+}
+/* main section */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+ /* section-1 style   */
+}
+.preview{
+    width: 500px;
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 115px;
+}
+.section1-tittle{
+    font-size: 50px;
+    margin: 0;
+}
+.section1-p{
+    color:#8D8E98;
+    font-size: 24px;
+}
+.sec1-img{
+    border-radius: 45px;
+}
+/* users section style */
+.users{
+    background-color: #E5E7FF;
+    height: 310px;
+    border-radius: 24px;
+    text-align: center;
+    padding-top:50px ;   
+}
+.user-tittle{
+    font-size: 40px;
+}
+.user-activity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    
+}
+.three-activity{
+    color: #4E47FF;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+}
+.activity-p{
+    font-size: 20px;
+    color: #8D8E98;
 }
