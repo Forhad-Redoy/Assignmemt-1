@@ -20,6 +20,7 @@ nav{
 }
 
 .logo{
+    font-family: "Inter", sans-serif;
     color: #4E47FF;
     font-size: 32px;
 
@@ -204,6 +205,7 @@ footer ul li{
     
 }
 .site-name{
+    font-family: "Inter", sans-serif;
     font-size: 100px;
     color: #4E47FF;
     
