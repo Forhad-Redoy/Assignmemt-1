@@ -31,6 +31,11 @@ nav{
     padding: 12px 36px;
     border: none;  
     border-radius: 10px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:#ff33e0 ;
+    transition: 1s;
 }
 .banner{
     margin-top: 250px;
@@ -131,6 +136,8 @@ main{
 }
 .reviewer-name{
    margin-top: -10px;
+   color: #808080;
+   font-weight: 600;
 }
 .review-date{
     margin-top: -10px;
@@ -172,4 +179,37 @@ textarea{
 .ready-btn{
     width: 540px;
     height: 50px;
+}
+/* footer section styles */
+footer{
+    text-align: center;
+    background-color: white;
+    height: 500px;
+    
+   
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li{
+    list-style: none;
+    margin-right: 50px;
+    color: #808080;
+    cursor: pointer;
+}
+.footer-sec{
+    padding-top:100px;
+    
+}
+.site-name{
+    font-size: 100px;
+    color: #4E47FF;
+    
+}
+.footer-p{
+    color: #808080;
+    font-weight: 500;
+    
 }
