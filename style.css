@@ -158,7 +158,7 @@ main{
 
 }
 input[type=email],input[type=text]{
-    width: 500px;
+    width: 465px;
     height: 60px;
     display: block;
     padding: 10px 20px;
@@ -168,7 +168,7 @@ input[type=email],input[type=text]{
 }
 
 textarea{
-    width: 500px;
+    width: 465px;
     height: 90px;
     display: block;
     padding: 10px 20px;
@@ -177,7 +177,7 @@ textarea{
     border-radius: 10px;
 }
 .ready-btn{
-    width: 540px;
+    width: 505px;
     height: 50px;
 }
 /* footer section styles */
